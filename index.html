@@ -1,0 +1,198 @@
+<html>
+
+<head>
+    <title>Interactive Calendar Using HTML and CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="evo-calendar.min.css">
+    <link rel="stylesheet" href="evo-calendar.midnight-blue.min.css">
+</head>
+
+<body>
+    
+    
+    <div class="hero">
+        <div id="calendar"></div>
+    
+    </div>
+    
+    
+    
+    
+ 
+    
+    
+    
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="evo-calendar.min.js"></script>
+    
+    <script>
+    
+         $(document).ready(function() {
+    $('#calendar').evoCalendar({
+               
+        
+                      calendarEvents: [
+      {
+        id: 'shashevent1', // Event's ID (required)
+        name: "New Year", // Event name (required)
+        date: "January/1/2022", // Event date (required)
+        description: "The heart touching greetings wll make feel anyone very special.wish your near and dear one with our very special greetings.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      { 
+          id: 'shashevent2', // Event's ID (required)
+        name: "Womens day", // Event name (required)
+        date: "March/08/2022", // Event date (required)
+        description: "An equal world is an enabled world.How will ypu help forge a gender equal world? Celebrates Womens day achievement. Raise awareness against bbias. Take action for equality. ",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      { 
+          id: 'shashevent3', // Event's ID (required)
+        name: "Labor Day", // Event name (required)
+        date: "May/01/2022", // Event date (required)
+        description: "This international holiday is observed on May 1st. It is most commonly associated as a commemoration of the achievements of the labour movement. The holiday may also be known as International Worker's Day or May Day and is marked with a public holiday in over 80 countries. ",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      { 
+          id: 'shashevent4', // Event's ID (required)
+        name: "Jamat-UL vida", // Event name (required)
+        date: "April/29/2022", // Event date (required)
+        description: "This international holiday is observed on May 1st. It is most commonly associated as a commemoration of the achievements of the labour movement. The holiday may also be known as International Worker's Day or May Day and is marked with a public holiday in over 80 countries. ",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      { 
+          id: 'shashevent5', // Event's ID (required)
+        name: "Guru Rabindranath birthday", // Event name (required)
+        date: "May/09/2022", // Event date (required)
+        description: "Rabindra Jayanti celebrates the birth anniversary of the great Bengali poet, scholar, novelist, playwright, humanist, philosopher, and Nobel laureate—Rabindranath Tagore. The day is celebrated in May, on the 9th day of the Bengali calendar month—Boishakh.. ",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+         { 
+          id: 'shashevent6', // Event's ID (required)
+        name: "Buddha Purnima", // Event name (required)
+        date: "May/16/2022", // Event date (required)
+        description: "Buddha Purnima is a Buddhist festival that is celebrated in most of East Asia and South Asia commemorating the birth of the Prince Siddhartha Gautama, later the Gautama Buddha, who was the founder of Buddhism. According to Buddhist tradition, Gautama Buddha was born c. 563–483 BCE in Lumbini, Nepal.. ",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+       { 
+          id: 'shashevent7', // Event's ID (required)
+        name: "Rath Yatra", // Event name (required)
+        date: "July/01/2022", // Event date (required)
+        description: "Ratha Yatra is a regional holiday observed in Odisha, India. It is celebrated on Ashadha Shukla Paksha Dwitiya. ",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+        { 
+          id: 'shashevent8', // Event's ID (required)
+        name: "Raksha Bandhan", // Event name (required)
+        date: "August/11/2022", // Event date (required)
+        description: "Raksha Bandhan is a Hindu festival, dedicated to sisters and brothers. Know about Raksha Bandhan date, time, history and significance.. ",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+        { 
+          id: 'shashevent9', // Event's ID (required)
+        name: "Independence Day", // Event name (required)
+        date: "August/15/2022", // Event date (required)
+        description: "Independence Day is celebrated annually on 15 August as a national holiday in India commemorating the nation's independence from the United Kingdom on 15 August 1947. ",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+        { 
+          id: 'shashevent10', // Event's ID (required)
+        name: "Onam", // Event name (required)
+        date: "september/09/2022", // Event date (required)
+        description:"Third and Fourth Onam falls on September 09, Friday and September 10, Saturday respectively.."  ,
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+        { 
+          id: 'shashevent11', // Event's ID (required)
+        name: "Mahatma Gandhi Jayanti", // Event name (required)
+        date: "October/02/2022", // Event date (required)
+        description: "Gandhi Jayanti is an event celebrated in India to mark the birthday of Mahatma Gandhi. ",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },    
+        { 
+          id: 'shashevent12', // Event's ID (required)
+        name: "Dussehra", // Event name (required)
+        date: "October/05/2022", // Event date (required)
+        description: "Vijaydashmi. ",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },  
+        { 
+          id: 'shashevent13', // Event's ID (required)
+        name: "Diwali", // Event name (required)
+        date: "October/24/2022", // Event date (required)
+        description: "The five-day festival celebrates the victory of light over darkness. Hindus across the world are celebrating Diwali. ",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },  
+        { 
+          id: 'shashevent14', // Event's ID (required)
+        name: "Bhai Duj", // Event name (required)
+        date: "October/26/2022", // Event date (required)
+        description: "Bhai Dooj, Bhaubeej, Bhai Tika or Bhai Phonta is a festival celebrated by Hindus on the second lunar day of Shukla Paksha (bright fortnight) in the Vikram Samvat Hindu calendar or of Shalivahan Shaka calendar month of Kartika. ",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+         { 
+          id: 'shashevent15', // Event's ID (required)
+        name: "Gurunanak Jayanti", // Event name (required)
+        date: "November/08/2022", // Event date (required)
+        description: "Guru Nanak Jayanti is a holiday that celebrates the birthday of Nanak, the first Sikh Guru. It is also known as Guru Nanak’s Prakash Utsau. ",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+         { 
+          id: 'shashevent16', // Event's ID (required)
+        name: "Christmas Day", // Event name (required)
+        date: "december/25/2022", // Event date (required)
+        description: "Christmas is an annual festival commemorating the birth of Jesus Christ, observed primarily on December 25[a] as a religious and cultural celebration among billions of people around the world. ",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },  
+          { 
+          id: 'shashevent17', // Event's ID (required)
+        name: "New Year Eve", // Event name (required)
+        date: "december/31/2022", // Event date (required)
+        description: "Last day of a year. ",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },  
+       {
+        name: "Vacation Leave",
+        badge: "02/13 - 02/15", // Event badge (optional)
+        date: ["April/14/2022", "April/17/2022"], // Date range
+        description: "Vacation leave for 4 days.", // Event description (optional)
+        type: "event",
+        color: "#63d867" // Event custom color (optional)
+      }
+    ]
+        
+        
+        
+       
+    })
+})
+    
+    
+    </script>
+    
+    
+    
+    
+</body>
+
+</html>
